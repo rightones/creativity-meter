@@ -1,0 +1,25 @@
+[project]
+name = "ccp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "torch>=2.11.0.dev20251215",
+    "torchvision>=0.25.0.dev20251216",
+    "diffusers>=0.36.0",
+    "transformers",
+    "accelerate",
+    "Pillow",
+    "pandas",
+    "scipy",
+    "matplotlib",
+    "lpips",
+    "datasets",
+    "huggingface_hub",
+    "seaborn",
+    "tabulate",
+]
+
+[[tool.uv.index]]
+url = "https://download.pytorch.org/whl/nightly/rocm7.1"

@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+*.egg-info/
+
+# Large data files
+data/
+data.csv
+*.log
+
+# UV lock (pyproject.toml suffices)
+uv.lock
+
+# IDE
+.vscode/
+.idea/
+
+# Agent/tool specific
+.agent/
+
+# Temporary files
+*.tmp
+*.bak
+
+# Model weights (users download separately)
+*.pt
+*.safetensors
+*.ckpt
+
+# LaTeX build files (keep only PDF)
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+paper/*.toc
+paper/*.synctex.gz
+paper/*.tex
+
+update.md
+project.md
